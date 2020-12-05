@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coursel",
+      "handler": "coursel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coursel",
+      "handler": "coursel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coursel",
+      "handler": "coursel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

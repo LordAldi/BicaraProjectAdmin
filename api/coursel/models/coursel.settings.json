@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "coursels",
+  "info": {
+    "name": "Coursel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CourselItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "coursel-item.coursel-item",
+      "required": true
+    }
+  }
+}

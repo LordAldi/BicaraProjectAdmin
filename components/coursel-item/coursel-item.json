@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_coursel_item_coursel_items",
+  "info": {
+    "name": "CourselItem",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
