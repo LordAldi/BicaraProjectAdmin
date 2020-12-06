@@ -1,4 +1,5 @@
 module.exports = {
+  //...
   load: {
     before: ["responseTime", "logger", "cors", "responses"],
     order: [
@@ -8,9 +9,7 @@ module.exports = {
   },
   settings: {
     cors: {
-      enabled: false,
-      origin: ["http://localhost:3000", "http://bicaraproject.com"],
-      //   origin: *,
+      origin: ["*"],
     },
   },
 };
