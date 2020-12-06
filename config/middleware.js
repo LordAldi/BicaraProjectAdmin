@@ -8,7 +8,8 @@ module.exports = {
   },
   settings: {
     cors: {
-      enabled: true,
+      enabled: false,
+      origin: ["http://localhost:3000", "http://bicaraproject.com"],
       //   origin: *,
     },
   },
