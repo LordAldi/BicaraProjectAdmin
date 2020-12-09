@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/editors-picks",
+      "handler": "editors-pick.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/editors-picks/count",
+      "handler": "editors-pick.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/editors-picks/:id",
+      "handler": "editors-pick.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/editors-picks",
+      "handler": "editors-pick.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/editors-picks/:id",
+      "handler": "editors-pick.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/editors-picks/:id",
+      "handler": "editors-pick.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

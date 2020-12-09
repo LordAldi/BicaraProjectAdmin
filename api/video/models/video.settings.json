@@ -44,6 +44,15 @@
     "source": {
       "type": "string",
       "required": true
+    },
+    "editors_picks": {
+      "collection": "editors-pick",
+      "via": "videos"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "judul",
+      "required": true
     }
   }
 }
