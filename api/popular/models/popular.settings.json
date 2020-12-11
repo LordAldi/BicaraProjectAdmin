@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "populars",
+  "info": {
+    "name": "Popular"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "videos": {
+      "collection": "video"
+    }
+  }
+}

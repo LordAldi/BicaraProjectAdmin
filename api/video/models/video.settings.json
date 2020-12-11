@@ -34,8 +34,8 @@
       "required": true
     },
     "categories": {
-      "collection": "category",
-      "via": "videos"
+      "via": "videos",
+      "collection": "category"
     },
     "class": {
       "model": "class",
