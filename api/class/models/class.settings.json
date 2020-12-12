@@ -28,8 +28,13 @@
       "required": true
     },
     "videos": {
-      "via": "class",
-      "collection": "video"
+      "collection": "video",
+      "via": "class"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }

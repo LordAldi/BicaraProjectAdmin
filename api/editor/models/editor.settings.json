@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "editors_picks",
+  "collectionName": "editors",
   "info": {
-    "name": "editorsPick",
+    "name": "editor",
     "description": ""
   },
   "options": {
@@ -11,9 +11,18 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "nama": {
+    "name": {
       "type": "string",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "videos": {
+      "collection": "video",
+      "via": "editors",
+      "dominant": true
     },
     "thumbnail": {
       "model": "file",
@@ -25,11 +34,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "videos": {
-      "via": "editors_picks",
-      "collection": "video",
-      "dominant": true
     }
   }
 }

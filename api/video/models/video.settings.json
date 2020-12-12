@@ -38,21 +38,21 @@
       "collection": "category"
     },
     "class": {
-      "model": "class",
-      "via": "videos"
+      "via": "videos",
+      "model": "class"
     },
     "source": {
       "type": "string",
       "required": true
     },
-    "editors_picks": {
-      "collection": "editors-pick",
-      "via": "videos"
-    },
     "slug": {
       "type": "uid",
       "targetField": "judul",
       "required": true
+    },
+    "editors": {
+      "via": "videos",
+      "collection": "editor"
     }
   }
 }
