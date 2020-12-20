@@ -677,6 +677,9 @@
               "slug": {
                 "type": "uid"
               },
+              "content": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
